@@ -1,0 +1,1 @@
+# This is an initialization readme for my computer vision course project. 
