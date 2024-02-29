@@ -1,4 +1,4 @@
-# This is an initialization readme for my computer vision course project. 
+# This is an initialization readme for our computer vision course project. 
 
 
 Sift for 
