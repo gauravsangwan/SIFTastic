@@ -12,10 +12,10 @@ Our project will be mainly based on SIFT and how it can be used in multiple ways
 > Note: Save the bag of visual works to be reused again and again.
 
 ## Final Deliverables : 
-- iPYNB for each of the 4 tasks, pushed to github repo.
-- PY file for each of the task with a function which takes image as input and returns the output.
-- Python  DASH application for the entire project.
-- Report will in LATEX.
+- [ ] iPYNB for each of the 4 tasks, pushed to github repo.
+- [ ] PY file for each of the task with a function which takes image as input and returns the output.
+- [ ] Python  DASH application for the entire project.
+- [ ] Report will in LATEX.
 
 ## Work Distribution: 
 
