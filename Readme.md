@@ -22,5 +22,5 @@ Our project will be mainly based on SIFT and how it can be used in multiple ways
 | Name | Tasks | 
 | --- | --- | 
 | Gaurav Sangwan | Adversarial, fingerprint and live webcam matching | 
-| Mukul Shingwani | 3D reconstruction |
+| Mukul Shingwani | 3D reconstruction and Localization|
 | Shashank Asthana and Anushka Ambuj | Visual Classification |
