@@ -5,7 +5,7 @@
 Our project will be mainly based on SIFT and how it can be used in multiple ways. Main Target problems will be 
 1.  **SIFT for visual classification** : Using bag of visual words classfication technique on CIFAR 10 dataset if possible or a subset of CIFAR10. 
 2. **SIFT for adversarial Detection** : Using SIFT to detect if the input image is adversarially attacked or not. 
-3. **SIFT for 3d Reconstruction** of monuments using uncaliberated stereo. 
+3. **SIFT for 3d Reconstruction** of monuments using uncaliberated stereo and image localization of the same monuments using their 3d reconstruction on any new image.
 4. **SIFT for Fingerprint matching** ([dataset](https://www.kaggle.com/datasets/ruizgara/socofing)) 
 5. **SIFT for live webcam matching** 
 
