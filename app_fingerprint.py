@@ -69,13 +69,15 @@ labels = ['Fingerprint1', 'Fingerprint2', 'Fingerprint3', 'Fingerprint4', 'Finge
 app.layout = html.Div([
     html.H1("SIFT Fingerprint Matching"),
     html.H2("CSL7360"),
+    html.P("An example of the 5 random finger prints from the test set is as follows."),
+    html.Img(src=random_images[0]),
     dcc.Dropdown(
         id='image-dropdown',
         options=[{'label': labels[i], 'value': random_images[i]} for i in range(len(random_images))],
         value=random_images[0]
     ),
     html.Div(id='output-image-upload'),
-    dcc.Interval(id='progress-interval', interval=100, n_intervals=0),
+    dcc.Interval(id='progress-interval', interval=10, n_intervals=0),
     html.Div(id='progress-bar-output')
 ])
 
@@ -115,4 +117,4 @@ def update_output(selected_image):
     return output_image
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=True, port = '8060')
