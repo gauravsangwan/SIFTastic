@@ -1,9 +1,9 @@
 <b> How to Run? </b> <br>
-In order to run image classifier, execute the following from the command line: 
+To run image classifier, execute the following from the command line: 
 ```
 python3 BoWC.py --train path [TRAIN PATH] --test path [TEST PATH] --no clusters [NO CLUSTERS] --kernel [KERNEL] 
 ```
-where;
+where,
 1. TRAIN PATH : Path of train dataset.
 2. TEST PATH : Path of test dataset.
 3. NO CLUSTERS : Number of clusters, default 50.
@@ -15,4 +15,7 @@ python3 BoWC.py --train path dataset/train --test path dataset/test --no cluster
 ```
 
 <b> Dataset Used </b> <br>
-You can use images inside 'dataset' folder as the datset for running the classifier.
+You can use images inside the 'dataset' folder as the dataset for running the classifier.
+
+<b> Comparative Study </b> <br>
+The classifier is evaluated based on experimentation over various sets of no. of clusters and kernel type of the SVM classifier. You can refer to the `BoWC.ipynb` file.
