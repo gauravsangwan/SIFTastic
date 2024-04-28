@@ -53,6 +53,20 @@ Dataset generalisation
 | CIFAR 10                            | 74.1225  | 69.32     |
 | CIFAR 100                           | 70.566   | 73.63     |
 
+### Visual Classification
+- Feature Detection Algorithm = SIFT
+- Clustering Algorithm = KMeans
+- Classifier = SVM
+
+Accuracy
+
+| k | kernel_type | Accuracy |
+|---|-------------|----------|
+| 50 | linear | 54.3 |
+| 50 | precomputed | 52.4 |
+| 100 | linear | 54.3 |
+| 100 | precomputed | 56.7 |
+
 ## Work Distribution: 
 
 | Name | Tasks | 
@@ -60,3 +74,4 @@ Dataset generalisation
 | Gaurav Sangwan | Adversarial, fingerprint and live webcam matching | 
 | Mukul Shingwani | 3D reconstruction and Localization|
 | Shashank Asthana and Anushkaa Ambuj | Visual Classification |
+| Anushkaa Ambuj | BoVW & Image Retrieval |
