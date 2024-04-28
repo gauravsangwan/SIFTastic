@@ -1,4 +1,5 @@
 # Visual Classification using Bag of Visual Words Approach
+## Train an SVM classifier using BoVW technique.
 
 <b> How to Run? </b> <br>
 To run the image classifier, execute the following from the command line: 
