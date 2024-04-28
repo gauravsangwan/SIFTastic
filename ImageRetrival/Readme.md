@@ -43,12 +43,12 @@ The images are gray-scaled, and also resized to lower dimension to decrease the 
 - Tf-idf (Term Frequency-Inverse Document Frequency) weighting is applied to the frequency vectors to adjust their importance.
 
 ### 7. Image Search Functionality
-- A search function calculates cosine similarity between tf-idf weighted vectors to perform image search.
+- A search function calculates cosine similarity between tf-idf weighted vectors to perform an image search.
 - Top-K similar images are identified based on their cosine similarity scores to the search image.
 
 ## Example
 To perform an image search:
-```
+```python
 search(index)
 ```
 where,
