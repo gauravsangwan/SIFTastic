@@ -1,6 +1,7 @@
-<b> How to Run? </b>
+<b> How to Run? </b> <br>
 In order to run image classifier, execute the following from the command line:
-python3 BoWC.py --train path [TRAIN PATH] --test path [TEST PATH] --no clusters [NO CLUSTERS] --kernel [KERNEL]
+<e>
+python3 BoWC.py --train path [TRAIN PATH] --test path [TEST PATH] --no clusters [NO CLUSTERS] --kernel [KERNEL] </e>
 where;
 1. TRAIN PATH : Path of train dataset.
 2. TEST PATH : Path of test dataset.
@@ -10,5 +11,5 @@ where;
 For example, if you want to classify images with precomputed kernel, where train path is dataset/train and test path is dataset/test by choosing 100 cluster centers. You have to execute following command:
 python3 BoWC.py --train path dataset/train --test path dataset/test --no clusters 100 --kernel precomputed
 
-<b> Dataset Used </b>
+<b> Dataset Used </b> <br>
 You can use images inside 'dataset' folder as the datset for running the classifier.
