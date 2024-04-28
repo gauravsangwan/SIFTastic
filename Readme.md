@@ -2,20 +2,53 @@
 
 **Github Repository for CSL7360 Computer Vision Course**
 
-Our project will be mainly based on SIFT and how it can be used in multiple ways. Main Target problems will be 
+Our project is based on SIFT and how it can be used in multiple ways. Main Target problems are
 1.  **SIFT for visual classification** : Using bag of visual words classfication technique 
 2. **SIFT for adversarial Detection** : Using SIFT to detect if the input image is adversarially attacked or not. 
-3. **SIFT for 3d Reconstruction** of monuments using uncaliberated stereo and image localization of the same monuments using their 3d reconstruction on any new image.
+3. **3D Reconstruction and Localization** of monuments using uncaliberated stereo and image localization of the same monuments using their 3d reconstruction on any new image.
 4. **SIFT for Fingerprint matching** ([dataset](https://www.kaggle.com/datasets/ruizgara/socofing)) 
 5. **SIFT for live webcam matching** 
 
 > Note: Save the bag of visual works to be reused again and again.
+## Setup
 
-## Final Deliverables : 
-- [ ] iPYNB for each of the 4 tasks, pushed to github repo.
-- [ ] PY file for each of the task with a function which takes image as input and returns the output.
-- [ ] Python  DASH application for the entire project.
-- [ ] Report will in LATEX.
+Before running any part of the application, ensure you have Python installed along with the necessary libraries:
+
+```
+pip install numpy opencv-python matplotlib
+```
+## Running the application
+The project is structured into multiple scripts, each corresponding to a different functionality. Here's how you can run each component:
+### Visual Classification
+To start the visual classification module, run the following script:
+```
+python3 app.py
+```
+### Live Webcam Feature Matching
+For real-time feature matching using your webcam, execute:
+```
+python3 app_webcam.py
+
+```
+### Fingerprint Matching
+To perform fingerprint matching, use the following command:
+```
+python3 app_fingerprint.py
+```
+### 3D Reconstruction
+For 3D reconstruction tasks:
+```
+python3 app_3d.py
+```
+### Dash Application
+To run the Dash application that integrates all the above functionalities, execute the provided run.sh script, ensure you are in the correct directory
+```
+cd <path_to_script>
+chmod +x run.sh
+./run.sh
+```
+
+
 ## Results 
 
 ### Adversarial Detection 
