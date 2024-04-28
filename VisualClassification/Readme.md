@@ -1,5 +1,5 @@
-<b> How to Run? </b> 
-In order to run image classifier, execute the following from the command line: <br>
+<b> How to Run? </b> <br>
+In order to run image classifier, execute the following from the command line: 
 ```
 python3 BoWC.py --train path [TRAIN PATH] --test path [TEST PATH] --no clusters [NO CLUSTERS] --kernel [KERNEL] 
 ```
