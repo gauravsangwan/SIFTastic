@@ -1,4 +1,4 @@
-<h1> Understanding Bag of Visual Words </h1>
+<h1> Understanding Bag of Visual Words and Implementing Image Retrieval</h1>
 
 ## Overview
 This Python code implements a Bag of Visual Words (BoVW) model for image classification. It performs the following tasks:
