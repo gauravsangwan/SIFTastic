@@ -1,3 +1,5 @@
+# Visual Classification using Bag of Visual Words Approach
+
 <b> How to Run? </b> <br>
 To run the image classifier, execute the following from the command line: 
 ```
