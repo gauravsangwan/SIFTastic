@@ -15,11 +15,19 @@ Our project is based on SIFT and how it can be used in multiple ways. Main Targe
 Before running any part of the application, ensure you have Python installed along with the necessary libraries:
 
 ```
-pip install numpy opencv-python matplotlib
+pip install -r requirements.txt
 ```
 ## Running the application
+
+### Dash Application
+To run the Dash application that integrates all the above functionalities, execute the provided run.sh script, ensure you are in the correct directory
+```
+cd <path_to_script>
+chmod +x run.sh
+./run.sh
+```
 The project is structured into multiple scripts, each corresponding to a different functionality. Here's how you can run each component:
-### Visual Classification
+### Visual Classification and Adversarial detection
 To start the visual classification module, run the following script:
 ```
 python3 app.py
@@ -39,13 +47,6 @@ python3 app_fingerprint.py
 For 3D reconstruction tasks:
 ```
 python3 app_3d.py
-```
-### Dash Application
-To run the Dash application that integrates all the above functionalities, execute the provided run.sh script, ensure you are in the correct directory
-```
-cd <path_to_script>
-chmod +x run.sh
-./run.sh
 ```
 
 
@@ -104,7 +105,7 @@ Accuracy
 
 | Name | Tasks | 
 | --- | --- | 
-| Gaurav Sangwan | Adversarial, fingerprint and live webcam matching | 
-| Mukul Shingwani | 3D reconstruction and Localization|
-| Shashank Asthana and Anushkaa Ambuj | Visual Classification |
+| Gaurav Sangwan | Adversarial, fingerprint and live webcam matching, Dash App, Video | 
+| Mukul Shingwani | 3D reconstruction and Localization, Dash App, Video |
+| Shashank Asthana | Visual Classification, Report |
 | Anushkaa Ambuj | BoVW & Image Retrieval |
