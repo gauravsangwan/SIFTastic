@@ -9,13 +9,18 @@ where,
 3. NO CLUSTERS : Number of clusters, default 50.
 4. KERNEL : Type of kernel, linear or precomputed, default linear.
 
-For example, if you want to classify images with precomputed kernel, where train path is dataset/train and test path is dataset/test by choosing 100 cluster centers. You have to execute following command:
+For example, if you want to classify images with the 'precomputed' kernel, where the train path is 'dataset/train' and the test path is 'dataset/test' by choosing '100' cluster centres. You have to execute the following command:
 ```
 python3 BoWC.py --train path dataset/train --test path dataset/test --no clusters 100 --kernel precomputed
 ```
 
 <b> Dataset Used </b> <br>
-You can use images inside the 'dataset' folder as the dataset for running the classifier.
+You can use images inside the 'dataset' folder as the dataset to run the classifier.
 
 <b> Comparative Study </b> <br>
-The classifier is evaluated based on experimentation over various sets of no. of clusters and kernel type of the SVM classifier. You can refer to the `BoWC.ipynb` file.
+The classifier is evaluated based on experimentation over various sets of no. of clusters and kernel type (linear & precomputed) of the SVM classifier. You can refer to the `BoWC.ipynb` file. 
+
+<b> Key Observations </b> <br>
+1. When we resize images to smaller dimensions, the number of descriptors for each image and testing accuracy decreases.
+2. Higher cluster size means higher training accuracy.
+3. Experiments with `kernel_type = precomputed` are more accurate than `kernel_type = linear`, since precomputed Chi-Squared kernels are useful for handling discrete features such as bag-of-features.
