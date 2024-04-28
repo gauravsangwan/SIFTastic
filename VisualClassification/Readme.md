@@ -18,7 +18,8 @@ python3 BoVWC.py --train path dataset/train --test path dataset/test --no cluste
 ```
 
 <b> Dataset Used </b> <br>
-You can use images inside the 'dataset' folder as the dataset to run the classifier.
+You can use images inside the 'dataset' folder as the dataset to run the classifier. <br>
+Note: To visualize the key points/features extracted, you can refer to the `ImageRetrival/BoVW_Code.ipynb` file.
 
 <b> Comparative Study </b> <br>
 The classifier is evaluated based on experimentation over various sets of no. of clusters and kernel type (linear & precomputed) of the SVM classifier. You can refer to the `BoWC.ipynb` file. 
